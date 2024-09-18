@@ -5,6 +5,11 @@ import ReactDOM from 'react-dom/client';
 // 引入App组件
 import App from './App';
 
+// 测试
+// import Re,{Component} from './module'
+// console.log(Re)
+// console.log(new Component())
+
 // 渲染App组件到页面
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,3 +17,6 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+
+
