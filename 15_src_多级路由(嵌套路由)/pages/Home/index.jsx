@@ -26,7 +26,7 @@ export default class Home extends Component {
               {/* 默认选中的是home/news */}
               <Route path="*" element={<Navigate to ="news" />}/>
               <Route path="/news" element={<News/>}/>
-              <Route path="/messages/*" element={<Messages/>}/> {/* 这里设定messages自动跳转 */}
+              <Route path="/messages" element={<Messages/>}/>
             </Routes>
           </div>
       </div>

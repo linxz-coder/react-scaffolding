@@ -25,7 +25,7 @@ export default class App extends Component {
             {/* 在React中靠路由链接实现切换组件 */}
             {/* 编写路由链接 */}
               <MyNavLink to="/about">About</MyNavLink>
-              <MyNavLink to="/home">Home</MyNavLink>
+              <MyNavLink to="/home/a/b">Home</MyNavLink>
             </div>
           </div>
           <div className="col-xs-6">
